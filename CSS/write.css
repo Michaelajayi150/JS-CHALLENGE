@@ -24,3 +24,18 @@
 #type {
   margin-top: 30px;
 }
+
+@media only screen and (max-width: 414px) {
+  .part {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    width: 200px;
+  }
+  
+  .btn {
+    margin-top: 10px; 
+  }
+}
