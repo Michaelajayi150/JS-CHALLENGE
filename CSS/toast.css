@@ -1,0 +1,21 @@
+.toast-div {
+  margin-top: 40px;
+}
+
+.toast {
+  visibility: hidden;
+  opacity: 0;
+  background: #EEE;
+  color: #1f1f23;
+  padding: 10px 15px;
+  transition: all 0.3s ease-out;
+}
+
+.toast-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.bell {
+  cursor: pointer;
+}
