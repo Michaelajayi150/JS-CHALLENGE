@@ -30,6 +30,7 @@ body {
   align-items: center;
   border-radius: 20% 0% 0% 60%;
   transition: all 0.8s cubic-bezier(1, 0, 0, 1);
+  z-index: 2001;
 }
 
 .change {
@@ -77,7 +78,7 @@ body {
 
 .nav-item {
   list-style-type: none;
-  margin: 20px;
+  margin: 25px;
 }
 
 .nav-link {
@@ -115,7 +116,7 @@ body {
   transform: scale(1);
 }
 
-main {
+.bone {
   color: #FFF;
   display: flex;
   flex-direction: column;
@@ -175,6 +176,6 @@ main h5 {
   }
   
   .nav-item {
-    margin: 15px;
+    margin: 10px;
   }
 }
