@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="U-XA-compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Challenge - Pop-Up Modals</title>
+    <link href="../CSS/menu.css" rel="stylesheet">
+    <link href="../CSS/pop.css" rel="stylesheet">
+    <link href="../CSS/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="home"><input type="button" value="Back to Challenge list" onclick="history.back(-1)" ></div>
+      <nav class="nav-bar" id="nav-bar">
+        <div class="ham-menu" id="ham-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+        
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Page/menu.html" class="nav-link">Hamburger Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Page/toast.html" class="nav-link">Toast Notification</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Page/write.html" class="nav-link">Auto Write Text</a>
+          </li>
+          <li class="nav-item"> 
+            <a href="../Page/rain.html" class="nav-link">Heart Rain</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Page/background.html" class="nav-link">Background Changer</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Page/mod.html" class="nav-link">Dark mode Toggle</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Page/carousel.html" class="nav-link">Carousel</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Page/sound.html" class="nav-link">Sound Board</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Page/zoom.html" class="nav-link">Zoom Effects</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    
+    <main  class="bone">
+      <h5>POP-UP MODALS </h5>
+      <div>Click on the button below</div>
+      <button class="pop-btn" id="modal-show">KNOW MORE</button>
+      <div class="modal modal-hidden" id="modal">
+        <div class="modal-content">
+          <div class="modal-close" id="modal-close">
+            <span>X</span>
+          </div>
+          <h5>Modals</h5>
+          <p>Modals Popup window are cool and interactive windows <br> that requires users to get information about the parent web/application </p>
+        </div>
+      </div>
+    </main>
+    
+    <footer>
+      <div class="foot">
+        Built with Love by Ajayi Michael &copy; 2021;
+        <br>
+        Check out a colleague prototype <a href="https://10-javascript-challenge.netlify.app/" target="_blank">10 JavaScript Challenge</a> by <a href="https://github.com/Abdur-rasheedidris19/" target="_blank">Abdul-Rashid</a> 
+      </div>
+    </footer>
+  </body>
+  <script src="../JS/menu.js"></script>
+  <script src="../JS/pop.js"></script>
+</html>
