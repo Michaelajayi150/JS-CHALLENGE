@@ -1,0 +1,13 @@
+.heart {
+  position: fixed;
+  top: -5vh;
+  transform: translateY(0);
+  animation: move 3s linear forwards;
+  font-size: 2.3rem;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(105vh);
+  }
+}

@@ -1,0 +1,73 @@
+.theme {
+  display: inline;
+}
+
+.theme input {
+  padding: 5px;
+  margin: 5px;
+}
+
+.theme label {
+  cursor: pointer;
+}
+
+.mod {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  text-align: left;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+.toggle {
+  padding: 5px 10px;
+}
+
+/* Light theme menu */
+.line {
+  background: #000;
+}
+
+/* Default Light Mode */
+body {
+  color: #000;
+  background-color: #FFF;
+  font-family: sans-serif;
+}
+
+/* Dark theme colors */
+body.dark-theme {
+  color: #EEE;
+  background-color: #232324;
+}
+  
+body.dark-theme .line {
+  background: #FFF;
+}
+
+@media (prefers-color-scheme: dark) {
+  /*Default Dark Mode */
+  body {
+    color: #EEE;
+    background-color: #232324;
+  }
+  
+  body.light-theme {
+    color: #000;
+    background-color: #FFF;
+  }
+}
+
+footer {
+  background: #2d2d31;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 17px;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  z-index: 1000;
+  color: #FFF;
+}
